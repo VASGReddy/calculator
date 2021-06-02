@@ -4,11 +4,11 @@ body{
     justify-content: center;
 }
 #calculatoroutline{
-    /* margin: 20% 40% 20% 40%; */
     border: 1px solid #ccc;
     border-radius:5px;
     padding: 10px;
-    box-shadow: 6px 8px 8px -8px #000;
+    /* box-shadow: 6px 8px 8px -8px #000; */
+    box-shadow: 0 0 5px #000;
     text-align: center;
 }
 
