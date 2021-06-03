@@ -1,3 +1,5 @@
+<!-- Basic Calculator using HTML, CSS and JS-->
+<!-- Author : V A S G Reddy -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,40 +13,40 @@
     <br>
         <table id ="calculatoroutline" cellpadding="3" cellspacing="3">
             <tr>
-                <td colspan="4"><br><input type="text" disabled class="resultscreen"><br><br></td>
+                <td colspan="4"><br><input type="text" id="resultscreen"/><br><br></td>
             </tr>
             <tr>
-                <td colspan="2"><input type="button" value="C" class="col2span resetbtn"></td>
-                <td><input type="button" value="%" class="operatorbtn"></td>
-                <td><input type="button" value="x" class="operatorbtn"></td>
+                <td colspan="2"><input type="button" value="AC" onclick="reset_btn()" class="col2span resetbtn"/></td>
+                <td> <input type="button" value="C" onclick="backspace_btn()" class="backspacebtn"/> </td>
+                <td> <input type="button" value="x" onclick="print_btnvalue('x')" class="operatorbtn"/> </td>
             </tr>
             <tr>
-                <td><input type="button" value="7" class="digitbtn"></td>
-                <td><input type="button" value="8" class="digitbtn"></td>
-                <td><input type="button" value="9" class="digitbtn"></td>
-                <td><input type="button" value="÷" class="operatorbtn"></td>
+                <td> <input type="button" value="7" onclick="print_btnvalue('7')" class="digitbtn"/> </td>
+                <td> <input type="button" value="8" onclick="print_btnvalue('8')" class="digitbtn"/> </td>
+                <td> <input type="button" value="9" onclick="print_btnvalue('9')" class="digitbtn"/> </td>
+                <td> <input type="button" value="÷" onclick="print_btnvalue('÷')" class="operatorbtn"/> </td>
             </tr>
             <tr>
-                <td><input type="button" value="4" class="digitbtn"></td>
-                <td><input type="button" value="5" class="digitbtn"></td>
-                <td><input type="button" value="6" class="digitbtn"></td>
-                <td><input type="button" value="-" class="operatorbtn"></td>
+                <td> <input type="button" value="4" onclick="print_btnvalue('4')" class="digitbtn"/> </td>
+                <td> <input type="button" value="5" onclick="print_btnvalue('5')" class="digitbtn"/> </td>
+                <td> <input type="button" value="6" onclick="print_btnvalue('6')" class="digitbtn"/> </td>
+                <td> <input type="button" value="-" onclick="print_btnvalue('-')" class="operatorbtn"/> </td>
             </tr>
             <tr>
-                <td><input type="button" value="1" class="digitbtn"></td>
-                <td><input type="button" value="2" class="digitbtn"></td>
-                <td><input type="button" value="3" class="digitbtn"></td>
-                <td rowspan="2"><input type="button" value="+" class="row2span operatorbtn"></td>
+                <td> <input type="button" value="1" onclick="print_btnvalue('1')" class="digitbtn"/> </td>
+                <td> <input type="button" value="2" onclick="print_btnvalue('2')" class="digitbtn"/> </td>
+                <td> <input type="button" value="3" onclick="print_btnvalue('3')" class="digitbtn"/> </td>
+                <td rowspan="2"> <input type="button" value="+" onclick="print_btnvalue('+')" class="row2span operatorbtn"/></td>
             </tr>
             <tr>
-                <td><input type="button" value="00" class="digitbtn"></td>
-                <td><input type="button" value="0" class="digitbtn"></td>
-                <td><input type="button" value="." class="digitbtn"></td>
+                <td> <input type="button" value="00" onclick="print_btnvalue('00')" class="digitbtn"/> </td>
+                <td> <input type="button" value="0" onclick="print_btnvalue('0')" class="digitbtn"/> </td>
+                <td> <input type="button" value="." onclick="print_btnvalue('.')" class="digitbtn"/> </td>
             </tr>
             <tr>
-                <td colspan="4"><input type="button" value="=" class="col4span equaltobtn"></td>
+                <td colspan="4"> <input type="button" value="=" onclick="calculator_result()" class="col4span equaltobtn"/> </td>
             </tr>
         </table>
-
+<script src="script.js"></script>
 </body>
 </html>
