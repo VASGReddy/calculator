@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 
-.digitbtn,.resetbtn,.equaltobtn,.operatorbtn{
+.digitbtn,.resetbtn,.equaltobtn,.operatorbtn,.backspacebtn{
     font-size: 20px;
     height:50px;
     width:50px;
@@ -34,6 +34,7 @@ body{
 .resetbtn:hover{
    background-color: rgb(255, 144, 17);
    border: 1px solid #000;
+   color: rgb(0, 0, 0);
 }
 
 .equaltobtn{
@@ -55,6 +56,17 @@ body{
     color: rgb(255, 255, 255);
  }
 
+ .backspacebtn{
+    border-radius:15px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+
+ }
+ .backspacebtn:hover{
+    background-color: rgb(11, 111, 83);
+    color: rgb(255, 255, 255);
+ }
+
 .col4span{
     height:40px;
     width: 229px; 
@@ -67,9 +79,12 @@ body{
     height:45px;
     width:105px;
 }
-.resultscreen{
+#resultscreen{
     height: 60px;
     width: 229px;
+    padding-right:15px;
     border: 2px solid #ccc;
     box-shadow: 0 0 2px #000;
+    font-size: 25px;
+    text-align: right;
 }
