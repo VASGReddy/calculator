@@ -29,8 +29,7 @@ function backspace_btn() {
 }
 function hear_result() {
     let msg = new SpeechSynthesisUtterance(); // Java script interface which creates its below objects
-     msg.lang = "en-US";
-    msg.text = msg;
+    msg.lang = "en-US";
     msg.volume = 1;
     msg.rate = 1;
     msg.pitch = 1;
