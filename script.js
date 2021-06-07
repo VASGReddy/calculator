@@ -29,11 +29,11 @@ function backspace_btn() {
 }
 function hear_result() {
     let msg = new SpeechSynthesisUtterance(); // Java script interface which creates its below objects
-    speech.lang = "en-US";
-    speech.text = msg;
-    speech.volume = 1;
-    speech.rate = 1;
-    speech.pitch = 1;
+     msg.lang = "en-US";
+    msg.text = msg;
+    msg.volume = 1;
+    msg.rate = 1;
+    msg.pitch = 1;
     msg.text = document.getElementById("resultscreen").value;
     window.speechSynthesis.speak(msg);
 }
