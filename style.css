@@ -1,4 +1,4 @@
-table{
+body{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -11,7 +11,6 @@ table{
     box-shadow: 0 0 5px #000;
     text-align: center;
 }
-
 .digitbtn,.resetbtn,.equaltobtn,.operatorbtn,.backspacebtn{
     font-size: 20px;
     height:50px;
@@ -25,7 +24,6 @@ table{
     background-color: #008CBA;
     color: #fff;
 }
-
 .resetbtn{
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
@@ -36,7 +34,6 @@ table{
    border: 1px solid #000;
    color: rgb(0, 0, 0);
 }
-
 .equaltobtn{
     background-color: rgb(15, 137, 7);
     color: rgb(255, 255, 255);
@@ -46,7 +43,6 @@ table{
    background-color: rgb(7, 78, 46);
    border: 1px solid #000;
 }
-
 .operatorbtn{
     border-radius:15px;
     border:1px solid #000;
@@ -56,19 +52,21 @@ table{
     color: rgb(255, 255, 255);
  }
 
+ .backspacebtn{
 .backspacebtn{
     border-radius:15px;
     background-color: #000;
     color: rgb(255, 255, 255);
-
  }
  .backspacebtn:hover{
     background-color: rgb(11, 111, 83);
     color: rgb(255, 255, 255);
  }
 
+.col4span{
 .col3span{
     height:40px;
+    width: 229px; 
     width: 186px; 
 }
 .row2span{
