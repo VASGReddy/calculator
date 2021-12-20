@@ -94,6 +94,9 @@ body{
     box-shadow: 0 0 3px #000;
     border-radius:10px;
     transition-duration: 0.4s;
+    background: url(https://raw.githubusercontent.com/VASGReddy/calculator/main/images/turn_sound_on.png) no-repeat;
+    cursor:pointer;
+    border: none;
 }
 #hear:hover{
     background-color: rgb(3, 242, 255);
