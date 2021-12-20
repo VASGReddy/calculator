@@ -94,10 +94,10 @@ body{
     box-shadow: 0 0 3px #000;
     border-radius:10px;
     transition-duration: 0.4s;
-    background-color: rgb(6, 30, 111);
+    background-color: #86a1f9;
 }
 #hear:hover{
-    background-color: rgb(15, 137, 7);
+    background-color: #751aff;
     transition-duration: 0.4s;
  }
 
