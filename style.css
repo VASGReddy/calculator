@@ -100,6 +100,7 @@ body{
     transition-duration: 0.4s;
  }
 
- table{
-     v
- }
+.button{
+    background-image:url('https://raw.githubusercontent.com/VASGReddy/calculator/main/images/turn_sound_on.png');
+    background-repeat:no-repeat;
+}
